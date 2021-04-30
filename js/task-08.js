@@ -18,7 +18,7 @@ function onClickInput() {
 function createBoxes() {
 
     for (let i = 0; i < onClickInput() ; i++){
-        divMakeUp.push('<div></div>')
+        divMakeUp.push('<div style="background-color: red ; width: 30px ; height:30px; margin-bottom:15px ;"></div>')
     }
   
     divBoxEl.insertAdjacentHTML('afterbegin', divMakeUp.join(''))
